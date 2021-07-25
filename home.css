@@ -1,0 +1,87 @@
+.news-flex-box {
+  flex: 0 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.news-box {
+  flex: 1;
+
+}
+
+.update-box {
+  flex: 1;
+}
+
+.miniroom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-title {
+  font-family: "ELAND_Choice_M";
+  border-bottom: 2px solid #d3c4d8;
+  color: rgb(115, 22, 151);
+  margin-bottom: 3.5px;
+}
+
+.news-row {
+  display: flex;
+  font-size: 0.8rem;
+  margin: 3px 0;
+}
+
+.news-title{
+  font-family: 'ELAND_Choice_M';
+}
+
+.news-category {
+  padding: 0 6px;
+  margin-right: 6px;
+  color: white;
+  border-radius: 3px;
+}
+
+.category-pic {
+  background-color: rgba(67, 134, 211, 0.925);
+  font-size: 12px;
+}
+
+.category-post {
+  background-color: rgba(144, 82, 202, 0.816);
+  font-size: 12px;
+}
+
+.menu-row {
+  display: flex;
+  border-bottom: 1px dashed grey;
+  margin: 3px 0;
+}
+
+.menu-item {
+  flex: 0.9;
+  font-family: 'ELAND_Choice_M';
+}
+
+.menu-num {
+  font-family: "NeoDunggeunmo";
+  padding-left: 6px;
+  color: #003399;
+}
+
+.miniroom-gif-box {
+  background-color: #00175c;
+  border: 1px solid #808080;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.miniroom-gif-box > img {
+  width: 100%;
+  height: 100.5%;
+}
+
